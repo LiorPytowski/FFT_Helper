@@ -1,5 +1,5 @@
 // Action Bar description file :FFT_Helper
-run("Action Bar","/plugins/ActionBar/FFT_Helper_v3.ijm");
+run("Action Bar","/plugins/ActionBar/FFT_Helper.ijm");
 exit();
 
 // Fix error if nothing is selected
@@ -25,7 +25,7 @@ arg=<macro>
 
 
 <button> 2 line 1
-label=Reset_ROI_manager
+label=Reset_ROI_Manager
 icon=noicon
 arg=<macro>
 	roiManager("reset");
@@ -44,7 +44,7 @@ arg=<macro>
 ///////////////Line 2
 <line>
 <button> 1 line 2
-label=Flip_Horizontally
+label=Flip_ROI_Horizontally
 icon=noicon
 arg=<macro>
 if (selectionType() >= 0) {
@@ -68,7 +68,7 @@ if (selectionType() >= 0) {
 
 
 <button> 2 line 2
-label=Flip_Vertically
+label=Flip_ROI_Vertically
 icon=noicon
 arg=<macro>
 if (selectionType() >= 0) {
@@ -93,7 +93,7 @@ if (selectionType() >= 0) {
 
 
 <button> 3 line 2
-label=Rotate_180
+label=Rotate_ROI_180
 icon=noicon
 arg=<macro>
 if (selectionType() >= 0) {
@@ -118,7 +118,7 @@ if (selectionType() >= 0) {
 ///////////////Line 3
 <line>
 <button> 1 line 3
-label=Remove_last_Roi
+label=Remove_Last_ROI
 icon=noicon
 arg=<macro>
 	n = roiManager("count");
