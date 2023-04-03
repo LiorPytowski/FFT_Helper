@@ -7,7 +7,7 @@
  ## Usage
 Run the ActionBarbar through Plugins › ActionBar › FFT Helper or the command finder.
 
-<img src="https://github.com/LiorPytowski/FFT_Helper/blob/main/ActionBar_snapshot.png" alt="ActionBar_snapshot" width="342" height="110">
+<img src="https://github.com/LiorPytowski/FFT_Helper/blob/main/ActionBar_snapshot.png" alt="ActionBar_snapshot" width="366" height="110">
 
 ## Acknowledgement
 This ActionBar is built thanks to: 
