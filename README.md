@@ -14,7 +14,7 @@ One the FFT Image create regions of interest to exclude. For this draw a ROI, ad
 No need to erase anything from the FFT image: when running Reverse_FFT it will automatically create the corresponding image of both the FFT excluding the selection or only including the selection.
 
 ## Demo
-The sample image below can be found in File › Open Samples › Comparing Lengths. The sample image was converted to 80Bit then inverted before running the Forward_FFT.
+The sample image below can be found in File › Open Samples › Comparing Lengths. The sample image was converted to 8-Bit then inverted before running the Forward_FFT.
 <img src="https://github.com/LiorPytowski/FFT_Helper/blob/main/demo_pt1.png" alt="Demo" width="774" height="444">
 
 Running Reverse_FFT from the toolbar will output the 2 images below:
