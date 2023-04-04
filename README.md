@@ -22,6 +22,7 @@ Running Reverse_FFT from the toolbar will output the 2 images below:
 
 ## To do
 Fix typos :)
+
 Add the ability to batch process files with the created mask.
 
 ### Acknowledgements
