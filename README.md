@@ -18,10 +18,10 @@ No need to erase anything from the FFT image: when running Reverse_FFT it will a
 
 ## Demo
 The sample image below can be found in File › Open Samples › Comparing Lengths. The sample image was converted to 8-Bit then inverted before running the Forward_FFT.
-<img src="https://github.com/LiorPytowski/FFT_Helper/blob/main/demo_pt1.png" alt="Demo1" width="774" height="444">
+<img src="https://github.com/LiorPytowski/FFT_Helper/blob/main/Demo_Input.png" alt="Demo1" width="774" height="444">
 
 Running Reverse_FFT from the toolbar will output the 2 images below:
-<img src="https://github.com/LiorPytowski/FFT_Helper/blob/main/demo_pt2.png?" alt="Demo2" width="713" height="319">
+<img src="https://github.com/LiorPytowski/FFT_Helper/blob/main/Demo_Outputs.pn?" alt="Demo2" width="713" height="319">
 
 ## To do
 Add the ability to batch process files with the created mask.
