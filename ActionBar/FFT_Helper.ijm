@@ -2,8 +2,8 @@
 run("Action Bar","/plugins/ActionBar/FFT_Helper.ijm");
 exit();
 
-// Fix error if nothing is selected
-// disable on top with tick box
+//TO DO: Fix error if nothing is selected
+//TO DO: Disable on top with tick box
 
 <onTop>
 <recordable>
@@ -154,7 +154,7 @@ arg=<macro>
 	setBackgroundColor(0, 0, 0);
 	run("Clear");
 	run("FFT");
-	rename("Inverste FFT excluding selection");
+	rename("Inverse FFT excluding selection");
 	
 	//Reverse FFT selection only
 	selectImage(id);
@@ -166,7 +166,7 @@ arg=<macro>
 	run("Clear");
 	run("FFT");
 	run("Select None");
-	rename("Inverste FFT of selection");
+	rename("Inverse FFT of selection");
 	
 	selectImage(id);
 	run("Redisplay Power Spectrum");
