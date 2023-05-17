@@ -1,5 +1,5 @@
 ## FFT_Helper
- A small Action Bar to help exploring FFT/Frequency domain images in FIJI.
+ A small Action Bar to help exploring FFT/Frequency domain images in FIJI.  
  Feedback welcome!
  
 ### Installation
